@@ -1,0 +1,801 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prestige House · Programme 2026-2027</title>
+<meta name="description" content="Le programme 2026-2027 du BDE Prestige House, EGC Martinique.">
+<link rel="icon" href="logo.jpg">
+<meta name="theme-color" content="#061F3A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Prestige House · Programme 2026-2027">
+<meta property="og:description" content="22 rendez-vous de décembre à avril. Découvre le programme du BDE Prestige House.">
+<meta property="og:image" content="logo.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=DM+Mono:wght@400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<script>if(!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))document.documentElement.classList.add('anim');</script>
+<style>
+:root{--accent:#1F47C8;--accent-hover:#2C56E0;--nuit:#061F3A;--nuit-fonce:#03112F;--argent:#C6CBD3;--mono:'DM Mono',ui-monospace,Menlo,monospace}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:#061F3A;-webkit-text-size-adjust:100%}
+img,video{max-width:100%}
+a:focus-visible,button:focus-visible{outline:2px solid #FFFFFF;outline-offset:3px}
+#janvier a:focus-visible,#avril a:focus-visible{outline-color:#061F3A}
+h1,h2,h3{text-wrap:balance}
+::selection{background:var(--accent);color:#FFFFFF}
+
+/* Barre du haut, collante */
+.topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:12px;padding:8px clamp(20px,5.5vw,88px);background:rgba(6,31,58,0.94);border-bottom:1px solid rgba(198,203,211,0.22);-webkit-backdrop-filter:saturate(140%) blur(10px);backdrop-filter:saturate(140%) blur(10px)}
+.topbar__brand{flex:0 0 auto;display:flex;align-items:center;gap:12px;min-height:48px;color:#FFFFFF;text-decoration:none}
+.topbar__brand img{width:48px;height:48px;display:block}
+.topbar__name{font-stretch:125%;font-weight:500;font-size:13px;letter-spacing:0.32em;text-transform:uppercase}
+.topbar__nav{flex:1 1 auto;min-width:0;display:flex;justify-content:flex-end;gap:2px;overflow-x:auto;scrollbar-width:none}
+.topbar__nav::-webkit-scrollbar{display:none}
+.topbar__nav a{position:relative;flex:0 0 auto;display:inline-flex;align-items:center;min-height:44px;padding:0 12px;font-family:var(--mono);font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:#C6CBD3;text-decoration:none;transition:color .2s ease}
+.topbar__nav a::after{content:"";position:absolute;left:12px;right:12px;bottom:8px;height:2px;background:#FFFFFF;transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.topbar__nav a:hover,.topbar__nav a[aria-current="true"]{color:#FFFFFF}
+.topbar__nav a:hover::after,.topbar__nav a[aria-current="true"]::after{transform:scaleX(1)}
+.topbar__vote{flex:0 0 auto;display:inline-flex;align-items:center;min-height:44px;padding:0 16px;background:var(--accent);color:#FFFFFF;font-stretch:112%;font-weight:700;font-size:13px;letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s ease}
+.topbar__vote:hover{background:var(--accent-hover)}
+@media (max-width:719px){
+  .topbar{gap:6px}
+  .topbar__name{display:none}
+  .topbar__brand img{width:40px;height:40px}
+  .topbar__nav{justify-content:flex-start;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10px,#000 82%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10px,#000 82%,transparent)}
+  .topbar__nav a{padding:0 9px}
+  .topbar__nav a::after{left:9px;right:9px}
+  .topbar__vote{padding:0 12px;font-size:12px}
+}
+
+/* Boutons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 24px;font-stretch:112%;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s ease,border-color .2s ease,transform .2s ease}
+.btn svg{transition:transform .2s ease}
+.btn--primary{background:var(--accent);color:#FFFFFF;font-weight:700}
+.btn--primary:hover{background:var(--accent-hover)}
+.btn--ghost{border:1px solid rgba(198,203,211,0.65);color:#FFFFFF;font-weight:600}
+.btn--ghost:hover{border-color:#FFFFFF;background:rgba(255,255,255,0.06)}
+.btn:active{transform:translateY(1px)}
+.btn--down:hover svg{transform:translateY(3px)}
+@media (max-width:479px){.btn{flex:1 1 100%}}
+
+/* Haut de page : vidéo de l'équipe */
+.hero-row{display:flex;flex-wrap:wrap;align-items:flex-end;gap:clamp(32px,4vw,64px);margin-top:clamp(20px,2.6vw,40px)}
+.hero-media{position:relative;flex:0 0 auto;width:100%;aspect-ratio:16 / 9;overflow:hidden;background:#03112F}
+.hero-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:50% 50%;display:block;cursor:zoom-in}
+.hero-media video:fullscreen{object-fit:contain;background:#000;cursor:auto}
+.hero-full{position:absolute;right:12px;bottom:12px;z-index:2;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 14px;border:0;border-radius:999px;background:rgba(3,17,47,0.78);color:#FFFFFF;font-family:var(--mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:background-color .2s ease}
+.hero-full:hover{background:rgba(3,17,47,0.95)}
+.hero-full[hidden]{display:none}
+.hero-media__corner{position:absolute;width:24px;height:24px;pointer-events:none;z-index:1}
+.hero-toggle{position:absolute;left:12px;bottom:12px;z-index:2;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px 0 12px;border:0;border-radius:999px;background:rgba(3,17,47,0.78);color:#FFFFFF;font-family:var(--mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:background-color .2s ease}
+.hero-toggle:hover{background:rgba(3,17,47,0.95)}
+.hero-toggle .i-play{display:none}
+.hero-toggle[data-paused="true"] .i-play{display:block}
+.hero-toggle[data-paused="true"] .i-pause{display:none}
+.social{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;border:1px solid rgba(198,203,211,0.45);color:#FFFFFF;transition:background .2s,border-color .2s,transform .2s}
+.social:hover,.social:focus-visible{background:var(--accent);border-color:var(--accent);transform:translateY(-2px)}
+.social:focus-visible{outline:2px solid #FFFFFF;outline-offset:3px}
+@media (max-width:759px){
+  .hero-row{flex-direction:column;align-items:stretch;gap:28px}
+  .hero-row > figure{order:-1;flex-basis:auto !important}
+  .hero-row > div{flex-basis:auto !important}
+}
+
+/* Bandeau défilant */
+.marquee{overflow:hidden;padding:16px 0;background:var(--accent);color:#FFFFFF;font-stretch:125%;font-weight:800;font-size:clamp(13px,1.2vw,17px);letter-spacing:0.16em;text-transform:uppercase;white-space:nowrap}
+.marquee__track{display:flex;width:max-content;animation:defile 38s linear infinite}
+.marquee__group{display:flex;flex:0 0 auto;gap:36px;padding-right:36px}
+@keyframes defile{to{transform:translateX(-50%)}}
+
+/* Sommaire */
+.toc a{transition:border-color .2s ease}
+.toc a .toc__mois{transition:transform .25s ease,color .2s ease}
+.toc a:hover{border-top-color:#FFFFFF}
+.toc a:hover .toc__mois{transform:translateX(6px);color:#C6CBD3}
+
+/* Apparition douce des photos (seulement si le JS tourne) */
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.is-visible{opacity:1;transform:none}
+
+/* Entrée du haut de page au chargement */
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes zoomin{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+.anim header > div:first-child{animation:fade .8s ease both}
+.anim header h1{animation:rise 1s cubic-bezier(.2,.7,.2,1) .05s both}
+.anim header h1 > span{display:inline-block;animation:rise 1s cubic-bezier(.2,.7,.2,1) .22s both}
+.anim .hero-row > div > *{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+.anim .hero-row > div > :nth-child(1){animation-delay:.35s}
+.anim .hero-row > div > :nth-child(2){animation-delay:.47s}
+.anim .hero-row > div > :nth-child(3){animation-delay:.59s}
+.anim .hero-row > figure{animation:zoomin 1.1s cubic-bezier(.2,.7,.2,1) .3s both}
+
+/* Titres, listes et grands numéros qui apparaissent au défilement */
+.js .up{opacity:0;transform:translateY(32px);transition:opacity .8s ease var(--d,0s),transform .9s cubic-bezier(.2,.7,.2,1) var(--d,0s)}
+.js .slide{opacity:0;transform:translateX(48px);transition:opacity .9s ease .15s,transform 1.1s cubic-bezier(.2,.7,.2,1) .15s}
+.js .up.is-visible,.js .slide.is-visible{opacity:1;transform:none}
+.stat{font-variant-numeric:tabular-nums}
+
+/* Photos : fond d'attente, puis fondu quand l'image est chargée (évite l'apparition brutale) */
+.reveal img{background:rgba(255,255,255,0.08)}
+.js img.img-wait{opacity:0;transition:opacity .6s ease}
+.js img.img-wait.is-loaded{opacity:1}
+
+/* Survol des rendez-vous (souris uniquement) */
+@media (hover:hover){
+  #top section ol > li > div > span:first-child{transition:transform .3s cubic-bezier(.2,.7,.2,1)}
+  #top section ol > li:hover > div > span:first-child{transform:translateX(8px)}
+  #bilan li{transition:border-color .25s ease}
+  #bilan li:hover{border-top-color:#9DB4FF}
+}
+
+/* Barre de progression de lecture */
+.progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:#C6CBD3;transform:scaleX(0);transform-origin:left;pointer-events:none}
+
+@supports not (overflow:clip){#top{overflow-x:hidden}}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .marquee__track{animation:none}
+  .js .reveal,.js .up,.js .slide{opacity:1;transform:none;transition:none}
+  .anim *{animation:none !important}
+  *,*::before,*::after{transition-duration:0s !important}
+}
+</style>
+</head>
+<body>
+<div id="top" style="font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif; color: #061F3A; background: #EDEFF2; overflow-x: clip">
+
+<!-- ============ BARRE DU HAUT ============ -->
+<div class="topbar" style="font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif">
+<a href="#top" class="topbar__brand">
+<img src="logo.jpg" alt="Logo Prestige House, bureau des étudiants" width="48" height="48">
+<span class="topbar__name">Prestige House</span>
+</a>
+<nav class="topbar__nav" aria-label="Aller à un mois">
+<a href="#decembre">Déc</a>
+<a href="#janvier">Janv</a>
+<a href="#fevrier">Févr</a>
+<a href="#mars">Mars</a>
+<a href="#avril">Avr</a>
+</nav>
+<a href="#vote" class="topbar__vote">Voter</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<header style="background: #061F3A; color: #FFFFFF; padding: 0 clamp(20px,5.5vw,88px) clamp(44px,6vw,88px)">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-top: clamp(28px,4vw,56px); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #C6CBD3">
+<span>BDE · EGC Martinique</span>
+<span>Programme 2026-2027</span>
+</div>
+
+<h1 style="margin: clamp(10px,1.4vw,20px) 0 0; font-stretch: 62%; font-weight: 900; font-size: max(13.5vw, min(24vw, 118px)); line-height: 0.84; text-transform: uppercase; color: #FFFFFF">Prestige <span style="color: #C6CBD3">House</span></h1>
+
+<div class="hero-row">
+<div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: clamp(18px,2vw,28px)">
+<p style="margin: 0; font-family: 'Pinyon Script', 'Snell Roundhand', cursive; font-size: clamp(54px,7vw,108px); line-height: 1; white-space: nowrap; color: #C6CBD3">Le programme</p>
+<p style="margin: 0; max-width: 31em; font-size: clamp(18px,1.5vw,22px); line-height: 1.45; color: #DCE2EB; text-wrap: pretty">22 rendez-vous. 5 mois. Une équipe qui a déjà fait ses preuves. Des ventes, des jeux, des journées à thème et le carnaval.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#programme" class="btn btn--primary btn--down">Voir le programme<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"></path></svg></a>
+<a href="#vote" class="btn btn--ghost">Vote : vendredi 13 novembre</a>
+</div>
+</div>
+<figure style="flex: 1.25 1 420px; min-width: 0; margin: 0; display: flex; flex-direction: column; gap: 12px">
+<div class="hero-media">
+<video id="video-equipe" autoplay muted loop playsinline preload="metadata" poster="equipe-poster.jpg" aria-label="Vidéo de présentation de l’équipe Prestige House : chaque membre apparaît avec son nom et son rôle">
+<source src="equipe-720.mp4" type="video/mp4" media="(max-width: 760px)">
+<source src="equipe-1280.mp4" type="video/mp4">
+</video>
+<span class="hero-media__corner" aria-hidden="true" style="top: 14px; left: 14px; border-top: 2px solid #C6CBD3; border-left: 2px solid #C6CBD3"></span>
+<span class="hero-media__corner" aria-hidden="true" style="top: 14px; right: 14px; border-top: 2px solid #C6CBD3; border-right: 2px solid #C6CBD3"></span>
+<button type="button" class="hero-full" aria-controls="video-equipe"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"></path></svg>Plein écran</button>
+<button type="button" class="hero-toggle" aria-controls="video-equipe" data-paused="false">
+<svg class="i-pause" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="4" width="5" height="16"></rect><rect x="14" y="4" width="5" height="16"></rect></svg>
+<svg class="i-play" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"></path></svg>
+<span class="hero-toggle__label">Pause</span>
+</button>
+</div>
+<figcaption style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">
+<span>L’équipe Prestige House</span>
+</figcaption>
+</figure>
+</div>
+</header>
+
+<!-- ============ BANDEAU ============ -->
+<div class="marquee" aria-hidden="true">
+<div class="marquee__track">
+<div class="marquee__group"><span>Prestige House</span><span>+</span><span>Programme 2026-2027</span><span>+</span><span>22 rendez-vous</span><span>+</span><span>Prestige House</span><span>+</span><span>Programme 2026-2027</span><span>+</span><span>22 rendez-vous</span><span>+</span></div>
+<div class="marquee__group"><span>Prestige House</span><span>+</span><span>Programme 2026-2027</span><span>+</span><span>22 rendez-vous</span><span>+</span><span>Prestige House</span><span>+</span><span>Programme 2026-2027</span><span>+</span><span>22 rendez-vous</span><span>+</span></div>
+</div>
+</div>
+
+<!-- ============ MISSION + CHIFFRES ============ -->
+<section style="background: #EDEFF2; color: #061F3A; padding: clamp(56px,7.5vw,120px) clamp(20px,5.5vw,88px)">
+<p style="margin: 0 0 clamp(14px,1.6vw,24px); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #45536B">Notre mission</p>
+<h2 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(58px,10.6vw,170px); line-height: 0.86; text-transform: uppercase"><span style="display: block">Un BDE, c’est plus</span><span style="display: block; color: var(--accent)">que des soirées.</span></h2>
+<p style="max-width: 34em; margin: clamp(20px,2.4vw,36px) 0 0; font-size: clamp(17px,1.4vw,21px); line-height: 1.5; color: #1D2F4A; text-wrap: pretty">Des activités, des animations, des ventes et des événements. Pour rendre la vie à l’école plus agréable, créer des liens entre les promotions et partager de bons moments hors des cours.</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 clamp(12px,3vw,48px); margin-top: clamp(36px,5vw,80px); border-top: 2px solid #061F3A">
+<div style="display: flex; flex-direction: column; gap: clamp(8px,1vw,14px); padding-top: clamp(16px,2vw,28px)">
+<span class="stat" style="font-stretch: 62%; font-weight: 900; font-size: clamp(84px,13vw,200px); line-height: 0.8">22</span>
+<span style="font-stretch: 125%; font-weight: 800; font-size: clamp(10px,2.6vw,16px); letter-spacing: 0.04em; text-transform: uppercase">Rendez-vous</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.5; letter-spacing: 0.1em; text-transform: uppercase; color: #45536B">Sur toute l’année</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: clamp(8px,1vw,14px); padding-top: clamp(16px,2vw,28px)">
+<span class="stat" style="font-stretch: 62%; font-weight: 900; font-size: clamp(84px,13vw,200px); line-height: 0.8">5</span>
+<span style="font-stretch: 125%; font-weight: 800; font-size: clamp(10px,2.6vw,16px); letter-spacing: 0.04em; text-transform: uppercase">Mois</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.5; letter-spacing: 0.1em; text-transform: uppercase; color: #45536B">De décembre à avril</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: clamp(8px,1vw,14px); padding-top: clamp(16px,2vw,28px)">
+<span class="stat" style="font-stretch: 62%; font-weight: 900; font-size: clamp(84px,13vw,200px); line-height: 0.8">3</span>
+<span style="font-stretch: 125%; font-weight: 800; font-size: clamp(10px,2.6vw,16px); letter-spacing: 0.04em; text-transform: uppercase">Promos</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.5; letter-spacing: 0.1em; text-transform: uppercase; color: #45536B">Une seule maison</span>
+</div>
+</div>
+</section>
+
+<!-- ============ SOMMAIRE ============ -->
+<section id="programme" style="background: #03112F; color: #FFFFFF; padding: clamp(40px,5vw,72px) clamp(20px,5.5vw,88px)">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px">
+<h2 style="margin: 0; font-stretch: 125%; font-weight: 800; font-size: clamp(20px,2.3vw,32px); letter-spacing: 0.03em; text-transform: uppercase">Le programme, mois par mois</h2>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #C6CBD3">Année 2026-2027</span>
+</div>
+<nav class="toc" aria-label="Sommaire du programme" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); gap: 0 clamp(16px,2vw,32px); margin-top: clamp(20px,2.4vw,36px)">
+<a href="#decembre" style="display: flex; flex-direction: column; gap: 10px; padding: 18px 0 22px; border-top: 2px solid #C6CBD3; color: #FFFFFF; text-decoration: none">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">5 rendez-vous</span>
+<span class="toc__mois" style="font-stretch: 62%; font-weight: 900; font-size: clamp(54px,6.2vw,92px); line-height: 0.84; text-transform: uppercase">Déc.</span>
+</a>
+<a href="#janvier" style="display: flex; flex-direction: column; gap: 10px; padding: 18px 0 22px; border-top: 2px solid #C6CBD3; color: #FFFFFF; text-decoration: none">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">4 rendez-vous</span>
+<span class="toc__mois" style="font-stretch: 62%; font-weight: 900; font-size: clamp(54px,6.2vw,92px); line-height: 0.84; text-transform: uppercase">Janv.</span>
+</a>
+<a href="#fevrier" style="display: flex; flex-direction: column; gap: 10px; padding: 18px 0 22px; border-top: 2px solid #C6CBD3; color: #FFFFFF; text-decoration: none">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">7 rendez-vous</span>
+<span class="toc__mois" style="font-stretch: 62%; font-weight: 900; font-size: clamp(54px,6.2vw,92px); line-height: 0.84; text-transform: uppercase">Févr.</span>
+</a>
+<a href="#mars" style="display: flex; flex-direction: column; gap: 10px; padding: 18px 0 22px; border-top: 2px solid #C6CBD3; color: #FFFFFF; text-decoration: none">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">5 rendez-vous</span>
+<span class="toc__mois" style="font-stretch: 62%; font-weight: 900; font-size: clamp(54px,6.2vw,92px); line-height: 0.84; text-transform: uppercase">Mars</span>
+</a>
+<a href="#avril" style="display: flex; flex-direction: column; gap: 10px; padding: 18px 0 22px; border-top: 2px solid #C6CBD3; color: #FFFFFF; text-decoration: none">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">1 rendez-vous</span>
+<span class="toc__mois" style="font-stretch: 62%; font-weight: 900; font-size: clamp(54px,6.2vw,92px); line-height: 0.84; text-transform: uppercase">Avr.</span>
+</a>
+</nav>
+</section>
+
+<!-- ============ DÉCEMBRE ============ -->
+<section id="decembre" style="background: #061F3A; color: #FFFFFF; padding: clamp(40px,6vw,92px) clamp(20px,5.5vw,88px) clamp(48px,6.5vw,100px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-bottom: 14px; border-bottom: 1px solid rgba(198,203,211,0.3); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #C6CBD3">
+<span>Chapitre 01 / 05</span>
+<span>5 rendez-vous</span>
+</div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: clamp(20px,2.6vw,40px); white-space: nowrap">
+<h2 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; text-transform: uppercase">Décembre</h2>
+<span aria-hidden="true" style="font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; color: rgba(198,203,211,0.1); -webkit-text-stroke: 2px rgba(198,203,211,0.75)">12</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: clamp(32px,5vw,80px); margin-top: clamp(28px,3.6vw,56px)">
+<ol style="flex: 1.5 1 460px; min-width: 0; list-style: none; margin: 0; padding: 0; border-bottom: 1px solid rgba(198,203,211,0.3)">
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">01</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Secret Santa</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Animation</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">02</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+<span style="font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Calendrier de l’Avent</span>
+<span style="font-size: 16px; line-height: 1.4; color: #DCE2EB">On l’a lancé en 2025. Il revient.</span>
+</span>
+<span style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 7px 11px; border-radius: 999px; background: var(--accent); color: #FFFFFF">2e édition</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Animation</span>
+</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">03</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Chanté Nwel</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Tradition</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">04</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente spéciale Noël</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Vente</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">05</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente de gâteaux</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Vente · Promo 2</span>
+</div>
+</li>
+</ol>
+<figure class="reveal" style="flex: 1 1 320px; min-width: 0; max-width: 440px; margin: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="position: relative; padding-bottom: 22%">
+<div style="position: relative; width: 78%">
+<img loading="lazy" decoding="async" src="dec-avent.jpg" alt="Calendrier de l’Avent en sachets kraft numérotés" style="display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 40%">
+<span style="position: absolute; top: 12px; left: 12px; padding: 6px 9px; background: #061F3A; color: #FFFFFF; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase">02 · Avent</span>
+</div>
+<div style="position: absolute; right: 0; bottom: 0; width: 54%; border: 8px solid #061F3A; background: #061F3A">
+<img loading="lazy" decoding="async" src="dec-santa.jpg" alt="Mains tenant un cadeau emballé d’un ruban rouge" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover">
+<span style="position: absolute; top: 12px; left: 12px; padding: 6px 9px; background: #061F3A; color: #FFFFFF; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase">01 · Secret Santa</span>
+</div>
+</div>
+<figcaption style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">
+<span>Calendrier de l’Avent · Secret Santa</span>
+<span>Décembre 2026</span>
+</figcaption>
+</figure>
+</div>
+</section>
+
+<!-- ============ JANVIER ============ -->
+<section id="janvier" style="background: #EDEFF2; color: #061F3A; padding: clamp(40px,6vw,92px) clamp(20px,5.5vw,88px) clamp(48px,6.5vw,100px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-bottom: 14px; border-bottom: 1px solid rgba(6,31,58,0.3); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #45536B">
+<span>Chapitre 02 / 05</span>
+<span>4 rendez-vous</span>
+</div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: clamp(20px,2.6vw,40px); white-space: nowrap">
+<span aria-hidden="true" style="font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; color: rgba(6,31,58,0.06); -webkit-text-stroke: 2px rgba(6,31,58,0.7)">01</span>
+<h2 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; text-transform: uppercase">Janvier</h2>
+</div>
+<div style="display: flex; flex-direction: row-reverse; flex-wrap: wrap; align-items: center; gap: clamp(32px,5vw,80px); margin-top: clamp(28px,3.6vw,56px)">
+<ol style="flex: 1.5 1 460px; min-width: 0; list-style: none; margin: 0; padding: 0; border-bottom: 1px solid rgba(6,31,58,0.3)">
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(6,31,58,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: var(--accent)">06</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Galettes des Rois</span>
+<span style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 7px 11px; border-radius: 999px; background: var(--accent); color: #FFFFFF">2e édition</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(6,31,58,0.5); border-radius: 999px; color: #1D2F4A">Tradition</span>
+</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(6,31,58,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: var(--accent)">07</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+<span style="font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Tournoi sportif</span>
+<span style="font-size: 16px; line-height: 1.4; color: #2B3B56">Avec des lots à gagner.</span>
+</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(6,31,58,0.5); border-radius: 999px; color: #1D2F4A">Sport</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(6,31,58,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: var(--accent)">08</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Journée de l’élégance</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(6,31,58,0.5); border-radius: 999px; color: #1D2F4A">Journée à thème</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(6,31,58,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: var(--accent)">09</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente de gâteaux</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(6,31,58,0.5); border-radius: 999px; color: #1D2F4A">Vente · Promo 2</span>
+</div>
+</li>
+</ol>
+<figure class="reveal" style="flex: 1 1 300px; min-width: 0; max-width: 440px; margin: 0; display: flex; flex-direction: column; gap: 14px">
+<div style="position: relative; padding-bottom: 16%">
+<div style="width: 84%; box-sizing: border-box; padding: 10px; border: 1px solid #061F3A; border-radius: 50%">
+<img loading="lazy" decoding="async" src="jan-galette.jpg" alt="Pâtisserie feuilletée dorée, façon galette des Rois" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 82%; border-radius: 50%">
+</div>
+<div style="position: absolute; right: 0; bottom: 0; width: 46%; border: 8px solid #EDEFF2; background: #EDEFF2">
+<img loading="lazy" decoding="async" src="jan-elegance.jpg" alt="Nœud papillon noir sur chemise blanche" style="display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 55% 50%">
+<span style="position: absolute; top: 12px; left: 12px; padding: 6px 9px; background: #061F3A; color: #FFFFFF; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase">08 · Élégance</span>
+</div>
+</div>
+<figcaption style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #45536B">Galette des Rois · Journée de l’élégance</figcaption>
+</figure>
+</div>
+</section>
+
+<!-- ============ FÉVRIER ============ -->
+<section id="fevrier" style="background: var(--accent); color: #FFFFFF; padding: clamp(40px,6vw,92px) clamp(20px,5.5vw,88px) clamp(48px,6.5vw,100px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,0.4); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #FFFFFF">
+<span>Chapitre 03 / 05</span>
+<span>7 rendez-vous</span>
+</div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: clamp(20px,2.6vw,40px); white-space: nowrap">
+<h2 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; text-transform: uppercase">Février</h2>
+<span aria-hidden="true" style="font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; color: rgba(255,255,255,0.1); -webkit-text-stroke: 2px rgba(255,255,255,0.85)">02</span>
+</div>
+<figure class="reveal" style="margin: clamp(28px,3.6vw,56px) 0 0; display: flex; flex-direction: column; gap: 12px">
+<div style="position: relative">
+<img loading="lazy" decoding="async" src="feb-carnaval.jpg" alt="Défilé de carnaval caribéen, danseuses en costumes rouges et jaunes" style="display: block; width: 100%; aspect-ratio: 21 / 8; min-height: 220px; object-fit: cover; object-position: 50% 45%">
+<span style="position: absolute; top: 12px; left: 12px; padding: 6px 9px; background: #061F3A; color: #FFFFFF; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase">14 · Groupe de carnaval</span>
+</div>
+<figcaption style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">
+<span>Groupe de carnaval</span>
+<span>Février 2027</span>
+</figcaption>
+</figure>
+<ol style="list-style: none; margin: clamp(24px,3vw,44px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 0 clamp(32px,5vw,80px)">
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(255,255,255,0.4)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">10</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Chandeleur</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Tradition</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(255,255,255,0.4)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">11</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Lettres pour la Saint-Valentin</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Animation</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(255,255,255,0.4)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">12</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente de macarons</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Vente</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(255,255,255,0.4)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">13</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Journée Twins</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Journée à thème</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(255,255,255,0.4)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">14</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Groupe de carnaval</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Carnaval</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(255,255,255,0.4)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">15</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+<span style="font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Concours photos</span>
+<span style="font-size: 16px; line-height: 1.4; color: #FFFFFF">Avec des thèmes.</span>
+</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Concours</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(255,255,255,0.4)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">16</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente de gâteaux</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Vente · Promo 2</span>
+</div>
+</li>
+</ol>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(8px,1.4vw,20px); margin-top: clamp(28px,3.6vw,56px)">
+<figure class="reveal" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<img loading="lazy" decoding="async" src="feb-crepes.jpg" alt="Crêpes pliées et fraises sur une assiette bleue" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: 45% 50%">
+<figcaption style="display: flex; flex-direction: column; gap: 2px; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.4; letter-spacing: 0.08em; text-transform: uppercase; color: #FFFFFF"><span style="opacity: 0.75">10</span><span>Chandeleur</span></figcaption>
+</figure>
+<figure class="reveal" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<img loading="lazy" decoding="async" src="feb-lettres.jpg" alt="Deux enveloppes kraft scellées d’un cœur rouge" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover">
+<figcaption style="display: flex; flex-direction: column; gap: 2px; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.4; letter-spacing: 0.08em; text-transform: uppercase; color: #FFFFFF"><span style="opacity: 0.75">11</span><span>Saint-Valentin</span></figcaption>
+</figure>
+<figure class="reveal" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<img loading="lazy" decoding="async" src="feb-madras.jpg" alt="Femme en tenue de carnaval en madras, chapeau tressé" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: 50% 30%">
+<figcaption style="display: flex; flex-direction: column; gap: 2px; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.4; letter-spacing: 0.08em; text-transform: uppercase; color: #FFFFFF"><span style="opacity: 0.75">14</span><span>Carnaval</span></figcaption>
+</figure>
+</div>
+</section>
+
+<!-- ============ MARS ============ -->
+<section id="mars" style="background: #061F3A; color: #FFFFFF; padding: clamp(40px,6vw,92px) clamp(20px,5.5vw,88px) clamp(48px,6.5vw,100px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-bottom: 14px; border-bottom: 1px solid rgba(198,203,211,0.3); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #C6CBD3">
+<span>Chapitre 04 / 05</span>
+<span>5 rendez-vous</span>
+</div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: clamp(20px,2.6vw,40px); white-space: nowrap">
+<span aria-hidden="true" style="font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; color: rgba(198,203,211,0.1); -webkit-text-stroke: 2px rgba(198,203,211,0.75)">03</span>
+<h2 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; text-transform: uppercase">Mars</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: clamp(32px,5vw,80px); margin-top: clamp(28px,3.6vw,56px)">
+<ol style="flex: 1.5 1 460px; min-width: 0; list-style: none; margin: 0; padding: 0; border-bottom: 1px solid rgba(198,203,211,0.3)">
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">17</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+<span style="font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Journée jeux</span>
+<span style="font-size: 16px; line-height: 1.4; color: #DCE2EB">Blind test, chaise musicale, gaming.</span>
+</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Jeu</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">18</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente de cookies</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Vente</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">19</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente de cupcakes</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Vente</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">20</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Escape game</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Jeu</span>
+</div>
+</li>
+<li style="display: flex; align-items: baseline; gap: 16px; padding: clamp(14px,1.5vw,22px) 0; border-top: 1px solid rgba(198,203,211,0.3)">
+<span style="flex: 0 0 2.2em; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">21</span>
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 16px">
+<span style="flex: 1 1 220px; min-width: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,3.1vw,44px); line-height: 1; text-transform: uppercase">Vente de gâteaux</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(198,203,211,0.55); border-radius: 999px; color: #E3E8EF">Vente · Promo 2</span>
+</div>
+</li>
+</ol>
+<figure class="reveal" style="flex: 1 1 300px; min-width: 0; max-width: 440px; margin: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="position: relative; padding-bottom: 20%">
+<div style="position: relative; width: 84%; padding: 0 0 18px 18px">
+<span aria-hidden="true" style="position: absolute; top: 18px; left: 0; right: 18px; bottom: 0; background: var(--accent)"></span>
+<div style="position: relative">
+<img loading="lazy" decoding="async" src="mar-gaming.jpg" alt="Étudiants jouant aux jeux vidéo, manettes en main" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 55% 50%">
+<span style="position: absolute; top: 12px; left: 12px; padding: 6px 9px; background: #061F3A; color: #FFFFFF; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase">17 · Journée jeux</span>
+</div>
+</div>
+<div style="position: absolute; right: 0; bottom: 0; width: 46%; border: 8px solid #061F3A; background: #061F3A">
+<img loading="lazy" decoding="async" src="mar-escape.jpg" alt="Cadenas ancien et sa clé" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 40% 50%">
+<span style="position: absolute; top: 12px; left: 12px; padding: 6px 9px; background: #061F3A; color: #FFFFFF; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase">20 · Escape</span>
+</div>
+</div>
+<figcaption style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">
+<span>Journée jeux · Escape game</span>
+<span>Mars 2027</span>
+</figcaption>
+</figure>
+</div>
+</section>
+
+<!-- ============ AVRIL ============ -->
+<section id="avril" style="background: #EDEFF2; color: #061F3A; padding: clamp(40px,6vw,92px) clamp(20px,5.5vw,88px) clamp(48px,6.5vw,100px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-bottom: 14px; border-bottom: 1px solid rgba(6,31,58,0.3); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #45536B">
+<span>Chapitre 05 / 05</span>
+<span>1 rendez-vous</span>
+</div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: clamp(20px,2.6vw,40px); white-space: nowrap">
+<h2 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; text-transform: uppercase">Avril</h2>
+<span aria-hidden="true" style="font-stretch: 62%; font-weight: 900; font-size: clamp(56px,17vw,270px); line-height: 0.84; color: rgba(6,31,58,0.06); -webkit-text-stroke: 2px rgba(6,31,58,0.7)">04</span>
+</div>
+<div style="position: relative; overflow: hidden; margin-top: clamp(28px,3.6vw,56px); background: var(--accent); color: #FFFFFF">
+<img loading="lazy" decoding="async" src="apr-carte.jpg" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; mix-blend-mode: multiply; opacity: 0.55">
+<div style="position: relative; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: clamp(28px,4vw,64px); padding: clamp(28px,4.5vw,72px)">
+<div style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: clamp(14px,1.6vw,24px)">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #FFFFFF">22</span>
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.7); border-radius: 999px; color: #FFFFFF">Jeu</span>
+</div>
+<h3 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(64px,11.5vw,184px); line-height: 0.84; text-transform: uppercase">Chasse au trésor</h3>
+<p style="margin: 0; font-size: clamp(17px,1.35vw,20px); line-height: 1.45; color: #FFFFFF">Le dernier rendez-vous de l’année. Et pas le moins attendu.</p>
+</div>
+<div aria-hidden="true" style="position: relative; flex: 0 0 auto; width: clamp(110px,17vw,250px); aspect-ratio: 1 / 1">
+<span style="position: absolute; left: 42%; top: -18%; width: 16%; height: 136%; background: #FFFFFF; transform: rotate(45deg)"></span>
+<span style="position: absolute; left: 42%; top: -18%; width: 16%; height: 136%; background: #FFFFFF; transform: rotate(-45deg)"></span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ============ BILAN ============ -->
+<section id="bilan" style="background: #03112F; color: #FFFFFF; padding: clamp(56px,7.5vw,120px) clamp(20px,5.5vw,88px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-bottom: 14px; border-bottom: 1px solid rgba(198,203,211,0.3); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #C6CBD3">
+<span>Notre bilan</span>
+</div>
+<p style="margin: clamp(24px,3vw,44px) 0 0; max-width: 32em; font-size: clamp(18px,1.5vw,22px); line-height: 1.45; color: #DCE2EB; text-wrap: pretty">Chez nous, le travail ne repose pas sur un seul membre&nbsp;: toute l’équipe s’y met. Et ça se voit.</p>
+<h2 style="margin: clamp(14px,1.6vw,24px) 0 0; font-stretch: 62%; font-weight: 900; font-size: clamp(58px,10.6vw,170px); line-height: 0.86; text-transform: uppercase">On l’a <span style="color: #9DB4FF">déjà fait.</span></h2>
+<ol style="list-style: none; margin: clamp(32px,4.5vw,72px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: clamp(28px,3vw,48px) clamp(24px,3vw,48px)">
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; border-top: 2px solid #C6CBD3">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">01</span>
+<h3 style="margin: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,2.6vw,38px); line-height: 1; text-transform: uppercase">Octobre Rose</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #DCE2EB">Une action pour Octobre Rose, le mois de sensibilisation au cancer du sein.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; border-top: 2px solid #C6CBD3">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">02</span>
+<h3 style="margin: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,2.6vw,38px); line-height: 1; text-transform: uppercase">Le calendrier de l’Avent</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #DCE2EB">C’est nous qui l’avons lancé. Cette année, c’est la 2e édition.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; border-top: 2px solid #C6CBD3">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">03</span>
+<h3 style="margin: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,2.6vw,38px); line-height: 1; text-transform: uppercase">Crêpes à la JPO</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #DCE2EB">Une vente de crêpes pendant la journée portes ouvertes de l’école.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; border-top: 2px solid #C6CBD3">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">04</span>
+<h3 style="margin: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,2.6vw,38px); line-height: 1; text-transform: uppercase">Vente de pâtisseries</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #DCE2EB">De quoi se restaurer entre deux cours, pendant les pauses.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; border-top: 2px solid #C6CBD3">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">05</span>
+<h3 style="margin: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,2.6vw,38px); line-height: 1; text-transform: uppercase">Remise des diplômes</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #DCE2EB">Des lots récupérés pour la remise des diplômes des 3e années.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 18px; border-top: 2px solid #C6CBD3">
+<span style="font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.08em; color: #9DB4FF">+</span>
+<h3 style="margin: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(27px,2.6vw,38px); line-height: 1; text-transform: uppercase; color: #9DB4FF">Et bien plus</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #DCE2EB">Plein d’autres choses mises en place au fil de l’année.</p>
+</li>
+</ol>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px clamp(24px,3vw,48px); margin-top: clamp(40px,5vw,80px); padding: clamp(24px,3vw,40px); background: var(--accent)">
+<span style="flex: 0 0 auto; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #FFFFFF">Côté trésorerie</span>
+<p style="flex: 1 1 320px; min-width: 0; margin: 0; font-stretch: 75%; font-weight: 800; font-size: clamp(26px,3vw,44px); line-height: 1.05; text-transform: uppercase; text-wrap: balance">L’argent du BDE finance tes événements. Pas nos paniers Shein.</p>
+</div>
+</section>
+
+<!-- ============ VOTE ============ -->
+<section id="vote" style="background: #061F3A; color: #FFFFFF; padding: clamp(56px,7.5vw,120px) clamp(20px,5.5vw,88px) clamp(32px,4vw,56px)">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px,5vw,80px)">
+<img loading="lazy" decoding="async" src="logo.jpg" alt="Logo Prestige House, bureau des étudiants" style="flex: 0 1 auto; width: clamp(200px,27vw,380px); aspect-ratio: 1 / 1; display: block">
+<div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: clamp(16px,2vw,28px)">
+<p style="margin: 0; font-stretch: 125%; font-weight: 800; font-size: clamp(15px,1.5vw,21px); letter-spacing: 0.12em; text-transform: uppercase; color: #C6CBD3">Vote Prestige House</p>
+<h2 style="margin: 0; font-stretch: 62%; font-weight: 900; font-size: clamp(64px,11vw,176px); line-height: 0.84; text-transform: uppercase">Vendredi 13 novembre</h2>
+<p style="margin: 0; max-width: 30em; font-size: clamp(18px,1.5vw,22px); line-height: 1.45; color: #DCE2EB; text-wrap: pretty">Un BDE qui anticipe sa campagne, c’est un BDE qui anticipera tes événements.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="https://drive.google.com/uc?export=download&amp;id=1S6eP49VMafcg12VH68CmMcifPmPNZx3v" class="btn btn--primary btn--down" target="_blank" rel="noopener" download>Télécharger la vidéo<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></a>
+</div>
+<p style="margin: -6px 0 0; font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">Vidéo MP4 · 41 Mo · Google Drive</p>
+</div>
+</div>
+<footer style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; margin-top: clamp(48px,6vw,96px); padding-top: 18px; border-top: 1px solid rgba(198,203,211,0.3); font-family: 'DM Mono', ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #AEBBD0">
+<span>BDE Prestige House · EGC Martinique</span>
+<span>Programme 2026-2027</span>
+<div style="display: flex; align-items: center; gap: 10px">
+<span>Suis-nous</span>
+<a class="social" href="https://www.instagram.com/bde_prestigehouse/" target="_blank" rel="noopener" aria-label="Instagram du BDE Prestige House (nouvel onglet)"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.4" cy="6.6" r="0.6" fill="currentColor"></circle></svg></a>
+<a class="social" href="https://www.tiktok.com/@bde_prestigehouse" target="_blank" rel="noopener" aria-label="TikTok du BDE Prestige House (nouvel onglet)"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"></path></svg></a>
+</div>
+</footer>
+</section>
+
+</div>
+<script>
+(function () {
+  var doc = document.documentElement;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Vidéo de l'équipe : bouton pause/lecture, et pas de lecture auto si l'utilisateur limite les animations */
+  var video = document.getElementById('video-equipe');
+  var toggle = document.querySelector('.hero-toggle');
+  if (video && toggle) {
+    var label = toggle.querySelector('.hero-toggle__label');
+    var sync = function () {
+      var paused = video.paused;
+      toggle.setAttribute('data-paused', paused ? 'true' : 'false');
+      label.textContent = paused ? 'Lecture' : 'Pause';
+    };
+    if (reduce) { video.removeAttribute('autoplay'); video.pause(); }
+    toggle.addEventListener('click', function () {
+      if (video.paused) { var p = video.play(); if (p && p.catch) p.catch(function () {}); } else { video.pause(); }
+    });
+    video.addEventListener('play', sync);
+    video.addEventListener('pause', sync);
+    sync();
+
+    /* Plein écran : bouton dédié ou clic sur la vidéo. iPhone : lecteur natif de Safari */
+    var full = document.querySelector('.hero-full');
+    var goFull = function () {
+      if (video.paused) { var p = video.play(); if (p && p.catch) p.catch(function () {}); }
+      if (video.requestFullscreen) { video.requestFullscreen().catch(function () {}); }
+      else if (video.webkitRequestFullscreen) { video.webkitRequestFullscreen(); }
+      else if (video.webkitEnterFullscreen) { video.webkitEnterFullscreen(); }
+    };
+    var canFull = video.requestFullscreen || video.webkitRequestFullscreen || video.webkitEnterFullscreen;
+    if (full && canFull) {
+      full.addEventListener('click', goFull);
+      video.addEventListener('click', function () { if (!document.fullscreenElement) goFull(); });
+      document.addEventListener('fullscreenchange', function () { video.controls = document.fullscreenElement === video; });
+    } else if (full) {
+      full.hidden = true;
+      video.style.cursor = 'auto';
+    }
+  }
+
+  /* Barre de progression de lecture */
+  var bar = document.createElement('div');
+  bar.className = 'progress';
+  bar.setAttribute('aria-hidden', 'true');
+  var topbar = document.querySelector('.topbar');
+  if (topbar) {
+    topbar.appendChild(bar);
+    var ticking = false;
+    var paint = function () {
+      var max = doc.scrollHeight - window.innerHeight;
+      bar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ')';
+      ticking = false;
+    };
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(paint); } }, { passive: true });
+    window.addEventListener('resize', paint);
+    paint();
+  }
+
+  /* Apparitions au défilement : photos, titres, listes, grands numéros */
+  if ('IntersectionObserver' in window && !reduce) {
+    doc.classList.add('js');
+    document.querySelectorAll('#top section h2, #decembre > div:first-child, #janvier > div:first-child, #fevrier > div:first-child, #mars > div:first-child, #avril > div:first-child, #bilan > div:first-child, #bilan > p, #bilan > div:last-child').forEach(function (el) { el.classList.add('up'); });
+
+    /* Photos pas encore chargées : fondu à l'arrivée au lieu d'un affichage brusque */
+    document.querySelectorAll('.reveal img').forEach(function (img) {
+      if (img.complete && img.naturalWidth) return;
+      img.classList.add('img-wait');
+      var done = function () { img.classList.add('is-loaded'); };
+      img.addEventListener('load', done);
+      img.addEventListener('error', done);
+    });
+    document.querySelectorAll('#top section h2 + span[aria-hidden="true"]').forEach(function (el) { el.classList.add('slide'); });
+    document.querySelectorAll('#top section ol, .toc').forEach(function (list) {
+      Array.prototype.forEach.call(list.children, function (el, i) {
+        el.classList.add('up');
+        el.style.setProperty('--d', (Math.min(i, 8) * 0.06) + 's');
+      });
+    });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.reveal, .up, .slide').forEach(function (el) { io.observe(el); });
+
+    /* Chiffres clés qui comptent jusqu'à leur valeur */
+    var count = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        count.unobserve(e.target);
+        var el = e.target, end = parseInt(el.getAttribute('data-end'), 10), t0 = null;
+        var step = function (t) {
+          if (t0 === null) t0 = t;
+          var p = Math.min(1, (t - t0) / 1200);
+          el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
+          if (p < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      });
+    }, { threshold: 0.6 });
+    document.querySelectorAll('.stat').forEach(function (el) {
+      el.setAttribute('data-end', el.textContent.trim());
+      el.textContent = '0';
+      count.observe(el);
+    });
+  }
+
+  /* Mois en cours surligné dans la barre du haut */
+  var links = document.querySelectorAll('.topbar__nav a');
+  if ('IntersectionObserver' in window && links.length) {
+    var byId = {};
+    links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (a) { a.removeAttribute('aria-current'); });
+        var a = byId[e.target.id];
+        if (a) {
+          a.setAttribute('aria-current', 'true');
+          var nav = a.parentNode;
+          if (nav.scrollWidth > nav.clientWidth) nav.scrollTo({ left: a.offsetLeft - nav.offsetLeft - 8, behavior: reduce ? 'auto' : 'smooth' });
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    document.querySelectorAll('header, #top > section').forEach(function (el) { spy.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
